@@ -39,7 +39,11 @@ a{
 	overflow: overlay;
 
 }
-
+pre{
+	color:black !important;
+	background: #256802 !important;
+	overflow: overlay;
+}
 a.tc-header-login{
 	background: #1b5f0a !important;
 	color:white !important;
