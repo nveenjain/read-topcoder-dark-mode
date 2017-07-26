@@ -1,3 +1,10 @@
+.sideNote{
+	background: #256902  !important;
+	font-weight: 600;
+	color:#000;
+	border:none;
+}
+
 .pageTitleWrapper{
 	background-color: #615f5f !important;
 }
@@ -16,7 +23,7 @@ body{
 a{
 	color:goldenrod ;
 }
-.formFrame{
+.formFrame, .codeBox{
 	background: #256902 !important;
 	font-weight: 600;
 	color:#000;
@@ -26,12 +33,13 @@ a{
 	border:1px solid #00380c !important;
 }
 .code{
-	background: #4a3030 ;
+	background: #4a3030 !important;
 	border:none;
 	color:#3cae0d;
 	overflow: overlay;
 
 }
+
 a.tc-header-login{
 	background: #1b5f0a !important;
 	color:white !important;
