@@ -17,12 +17,18 @@ a{
 	color:goldenrod ;
 }
 .formFrame{
-	background: #256902 ;
+	background: #256902 !important;
 	font-weight: 600;
+	color:#000;
+	border:none;
+}
+.formFrame td{
+	border:1px solid #00380c !important;
 }
 .code{
-	background: #256902 ;
+	background: #4a3030 ;
 	border:none;
+	color:#3cae0d;
 	overflow: overlay;
 
 }
