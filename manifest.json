@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Read Article",
+  "description": "Read topcoder tutorials easily(dark theme)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.topcoder.com/community/data-science/data-science-tutorials/*","http://geeks4geeks.org/*"],
+      "css": ["mystyles.css"]
+    }
+  ]
+}

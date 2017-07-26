@@ -1,0 +1,38 @@
+.pageTitleWrapper{
+	background-color: #615f5f !important;
+}
+.pageTitleWrapper .pageTitle h2{
+	color:#fff !important;
+}
+body{
+	color:#00d0ff !important;
+}
+.textwidget div{
+	background: #615f5f !important;
+}
+#main{
+	background: #242425 !important;
+}
+a{
+	color:goldenrod ;
+}
+.formFrame{
+	background: #256902 ;
+	font-weight: 600;
+}
+.code{
+	background: #256902 ;
+	border:none;
+	overflow: overlay;
+
+}
+a.tc-header-login{
+	background: #1b5f0a !important;
+	color:white !important;
+}
+.top-header{
+	background: #253131 !important;
+}
+.header-wrapper{
+	background: #242425 !important;
+}
